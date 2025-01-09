@@ -7,11 +7,12 @@ import SearchIcon from '@mui/icons-material/Search';
 const Home = () => {
   return (
     <div>
-      <Navbar />
+     
       <Box className='container' sx={{ flexGrow: 1, p: 3, pt: 10 , }}> {/* Added pt: 10 to account for the fixed navbar */}
       <Box sx={{ display: 'flex', alignItems: 'center',justifyContent:"center",py:3, }}>
         <IconButton color="inherit">
           <SearchIcon />
+          
         </IconButton>
         <InputBase
           placeholder="What is there in you mind"
